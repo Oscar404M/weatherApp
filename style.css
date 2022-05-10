@@ -1,0 +1,101 @@
+body {
+	height: 100vh;
+	margin: 0;
+	background: #222;
+	font-family: 'Recursive', sans-serif;
+	background-image: url('https://picsum.photos/1800/1080');
+	background-repeat: no-repeat;
+}
+.header {
+
+	color: gray;
+	text-align: center;
+	display: inline-block;
+	margin-left: 35%;
+	margin-bottom: 150px;
+
+}
+
+.card {
+	background: #000000d0;
+	color: white;
+	padding:2em;
+	border-radius: 30px;
+	width: 100%;
+	max-width: 420px;
+	margin: 1em;
+	margin-left: 30%;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+button {
+	  margin: 1rem;
+	  border-radius: 40%;
+	  border: none;
+	  height: 2.5rem;
+	  width: 2.5rem;
+	  outline: none;
+	  opacity: 0.8;
+}
+
+button:hover {
+	opacity: 1;
+}
+.temp {
+	margin: 0;
+	margin-bottom:0.4em;
+}
+
+
+.search-bar {
+	border: none;
+	outline: none;
+	padding: 0.7rem 1rem;
+	border-radius: 18px;
+	font-family: inherit;
+	font-size: 120%;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	margin-left: -15px;
+}
+
+.discreption {
+	text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+	.header {
+		margin-left:17px;
+		margin-bottom: 50px;
+	}
+	.card {
+	background: #000000d0;
+	color: white;
+	padding: 50px 50px;
+	border-radius: 10px;
+	width: 50%;
+	margin: 1em;
+	margin-left: 10%;
+}
+
+	.search-bar {
+		margin-left: 50px;
+		width: 200px;
+	}
+
+	button {
+		visibility: hidden;;
+	}
+
+
+}
